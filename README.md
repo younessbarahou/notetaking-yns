@@ -1,1 +1,1 @@
-# todo
+ Hello world! this is my first personal project. using a design i created in figma , Im building a website that contains a todo list that is dynamic , The user can Add his own tasks and modify them end.
