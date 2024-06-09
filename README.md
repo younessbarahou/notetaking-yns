@@ -1,1 +1,1 @@
- Hello world! this is my first personal project. using a design i created in figma , Im building a website that contains a todo list that is dynamic , The user can Add his own tasks and modify them end.
+ Hello world! this is my first personal project. using a design i created in figma , Im building a website that contains a Notes taking , the user can add , modify or delete a note , this website also contains a sign up/login form that is built with php.end
