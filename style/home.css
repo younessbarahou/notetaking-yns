@@ -1,0 +1,107 @@
+:root{
+    --main : #EDF2F4;
+    --secondary: #3D405B;
+    --neutral: #CC735E;
+    --h-neutral: #e6836d;
+}
+*{
+    user-select: none;
+    font-family: Rubik , 'sans serif';
+    scroll-behavior: smooth;
+}
+body{
+	margin: 0 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+nav {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+#note-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+#note{
+    margin: 0 1rem;
+    padding: 0 1.5rem;
+    border: 1px solid;
+    text-align: center;
+    color: var(--main);
+    background-color: var(--secondary);
+    border-radius: 8px;
+    max-width: 300px;
+    line-height: 1.4rem;
+}
+#note > p{
+    text-align: start;
+    font-size: 0.95rem;
+}
+#title{
+    font-weight: 700;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+#note button{
+    background-color: var(--neutral);
+    border: none;
+    color: var(--main);
+    padding: 0.5rem 0;
+    width: 50%;
+    border-radius: 6px;
+}
+hr{
+    color: var(--secondary);
+    width: 100vw;
+    margin-left: -18px;
+}
+
+#note button:hover{
+    background-color: var(--h-neutral);
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    gap: 5px;
+}
+#nb-notes{
+    margin: 3.5rem 1rem 1.5rem 1rem;
+    color: var(--secondary);
+}
+#date{
+    margin-top: 10px;
+    padding-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+#logout{
+    margin-right:20px;
+}
+#logout:hover{
+    color: red;
+    cursor: pointer;
+    transition: 300ms;
+}
+@media screen and (min-width:800px){
+    #note-all{
+        flex-direction: row;
+        margin: 0rem 2.5rem;
+    }
+    #nb-notes{
+        margin-left: 3.5rem;
+    }
+    #logout{
+        margin-right:100px;
+    }
+    nav{
+        margin-left: 3rem;
+	    margin-top: 2rem;
+    }
+}

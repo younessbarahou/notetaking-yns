@@ -15,9 +15,12 @@ nav {
     display: block;
     margin-left: 1rem;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
 body {
     margin: 0 0.5rem;
 }
@@ -74,10 +77,14 @@ form>span {
 
 form input[type="submit"]:hover {
     background-color: var(--h-neutral);
-    color: var(--secondary);
     cursor: pointer;
+    transition: 300ms;
 }
-
+hr{
+    color: var(--secondary);
+    width: 100vw;
+    margin-left: -10px;
+}
 form div {
     margin-bottom: 2.5rem;
     font-size: 12px;
