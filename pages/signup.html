@@ -14,15 +14,16 @@
     </nav>
     <form action="" method="post">
         <center><h1>User Sign Up</h1></center>
-        <label>Email *</label>
-        <input type="text" name="email">
-        <label>Password *</label>
-        <input type="password" name="password">
-        <label>Confirm Password *</label>
-        <input type="password" name="c-password">
+        <label for="email">Email <span class="etoil">*</span></label>
+        <input type="text" name="email" id="email" oninput="return email.style.backgroundColor='white'">
+        <label for="password">Password <span class="etoil">*</span></label>
+        <input type="password" name="password" id="password" oninput="return password.style.backgroundColor='white'">
+        <label for="c-passowrd">Confirm Password <span class="etoil">*</span></label>
+        <input type="password" name="c-password" id="cpassword" oninput="return cpassword.style.backgroundColor='white'">
         <span>Passwords does not match</span>
         <input type="submit" value="Sign Up">
-        <div><center>Already Have An Account? <a href="">Login</a></center></div>
+        <div><center>Already Have An Account? <a href="login.html">Login</a></center></div>
     </form>
 </body>
+<script src="../scripts/script-signup.js"></script>
 </html>

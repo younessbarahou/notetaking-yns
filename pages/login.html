@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <nav>
+        <div>Y.notepad</div>
+    </nav>
+    <form action="" method="post">
+        <center><h1>User Login</h1></center>
+        <label>Email <span class="etoil">*</span></label>
+        <input type="text" name="email" id="email" oninput="return email.style.backgroundColor='white'">
+        <label>Password <span class="etoil">*</span></label>
+        <input type="password" name="password" id="password" oninput="return password.style.backgroundColor='white';">
+        <span>Email or Password are incorrect</span>
+        <input type="submit" value="Login">
+        <div><center>Don't Have An Account? <a href="signup.html">Sign Up</a></center></div>
+    </form>
+</body>
+<script src="../scripts/script-login.js"> </script>
+</html>
